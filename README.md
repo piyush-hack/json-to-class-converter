@@ -24,7 +24,7 @@ npm install json-class-npm
 First, you need to register your classes using the `@RegisterClass` decorator.
 
 ```typescript
-import { RegisterClass, parseJson } from 'json-class-converter';
+import { RegisterClass, parseJson } from 'json-class-npm';
 
 @RegisterClass('C')
 class C {
@@ -85,7 +85,7 @@ console.log(objA.arrC[0].getProp()); // Output: inside c World
 ### Example
 
 ```typescript
-import { RegisterClass, parseJson } from 'json-class-converter';
+import { RegisterClass, parseJson } from 'json-class-npm';
 
 @RegisterClass('C')
 class C {
