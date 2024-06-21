@@ -1,6 +1,6 @@
 {
   "name": "json-class-npm",
-  "version": "1.0.72",
+  "version": "1.0.73",
   "description": "",
   "main": "dist/index.js",
   "types": "types/types.d.ts",
@@ -8,7 +8,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && dts-bundle-generator -o ./types/types.d.ts ./src/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "json to Class convertor",
+    "TypeScript json to class",
+    "Object to class convertor",
+    "Object parser",
+    "Class maker",
+    "Object to class fetcher"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -16,6 +23,5 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
