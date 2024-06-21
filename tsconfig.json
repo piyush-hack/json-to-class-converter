@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "typeRoots": [
+      "./node_modules/@types",
+    ],
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./types",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
