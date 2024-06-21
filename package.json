@@ -16,6 +16,10 @@
     "Class maker",
     "Object to class fetcher"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyush-hack/json-to-class-converter.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
