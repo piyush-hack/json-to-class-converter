@@ -1,6 +1,6 @@
 {
   "name": "json-class-npm",
-  "version": "1.0.800",
+  "version": "1.0.801",
   "description": "",
   "main": "dist/index.js",
   "types": "types/types.d.ts",
