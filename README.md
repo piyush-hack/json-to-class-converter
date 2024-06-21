@@ -152,6 +152,13 @@ Function to parse a JSON object and convert it into an instance of the registere
 
 - `json`: The JSON object to parse.
 
+## Reach Out
+
+For more information, you can reach out to me through:
+
+- [GitHub](https://github.com/piyush-hack/)
+- [LinkedIn](https://www.linkedin.com/in/piyush-puniya-32b453227)
+
 ## License
 
 This project is licensed under the MIT License.
