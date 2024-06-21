@@ -12,8 +12,5 @@
     "strict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  },
-  "include": [
-    "spec/**/*.ts"
-, "src/tests/nested-array-classes.spec.ts"  ],
+  }
 }
