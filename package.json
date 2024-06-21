@@ -1,6 +1,6 @@
 {
   "name": "json-class-npm",
-  "version": "1.0.73",
+  "version": "1.0.74",
   "description": "",
   "main": "dist/index.js",
   "types": "types/types.d.ts",
@@ -21,7 +21,9 @@
   "devDependencies": {
     "@types/node": "^20.14.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.2",
+    "json-class-npm": "^1.0.74"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
