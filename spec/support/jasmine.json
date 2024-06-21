@@ -1,0 +1,12 @@
+{
+  "spec_dir": "src/tests",
+  "spec_files": [
+    "**/*[sS]pec.ts"
+  ],
+  "helpers": [
+    "helpers/**/*.ts"
+  ],
+  "requires": [
+    "ts-node/register"
+  ]
+}

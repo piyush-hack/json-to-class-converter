@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "types/types.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && dts-bundle-generator -o ./types/types.d.ts ./src/index.ts"
+    "test": "jasmine",
+    "build": "rm -rf dist && rm -rf types && tsc && jasmine && dts-bundle-generator -o ./types/types.d.ts ./src/index.ts"
   },
   "keywords": [
     "json to Class convertor",
@@ -19,11 +19,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jasmine": "^5.1.4",
     "@types/node": "^20.14.7",
+    "jasmine": "^5.1.0",
+    "json-class-npm": "^1.0.74",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2",
-    "json-class-npm": "^1.0.74"
-  },
-  "dependencies": {
+    "typescript": "^5.5.2"
   }
 }
